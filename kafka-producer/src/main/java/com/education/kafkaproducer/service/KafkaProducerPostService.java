@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 @AllArgsConstructor
 public class KafkaProducerPostService {
 
-    private KafkaTemplate<String, Post> kafkaTemplate;
+    private final KafkaTemplate<String, Post> kafkaTemplate;
 
     public void send(String topic, Post post) {
         kafkaTemplate.send(topic, post);
