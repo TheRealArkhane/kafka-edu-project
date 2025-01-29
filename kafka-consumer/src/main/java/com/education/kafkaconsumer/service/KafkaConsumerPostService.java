@@ -1,6 +1,7 @@
 package com.education.kafkaconsumer.service;
 
-import com.education.kafkaproducer.payload.Post;
+
+import com.education.kafkadto.dto.Post;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Profile;
 import org.springframework.kafka.annotation.KafkaListener;

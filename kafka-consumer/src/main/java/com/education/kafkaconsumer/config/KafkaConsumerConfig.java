@@ -1,6 +1,7 @@
 package com.education.kafkaconsumer.config;
 
-import com.education.kafkaproducer.payload.Post;
+
+import com.education.kafkadto.dto.Post;
 import org.springframework.kafka.support.serializer.ErrorHandlingDeserializer;
 import org.springframework.kafka.support.serializer.JsonDeserializer;
 import org.apache.kafka.clients.consumer.ConsumerConfig;

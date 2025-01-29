@@ -1,7 +1,7 @@
 package com.education.kafkaproducer.controller;
 
 
-import com.education.kafkaproducer.payload.Post;
+import com.education.kafkadto.dto.Post;
 import com.education.kafkaproducer.service.KafkaProducerPostService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;

@@ -1,6 +1,6 @@
 package com.education.kafkaproducer.service;
 
-import com.education.kafkaproducer.payload.Post;
+import com.education.kafkadto.dto.Post;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.core.KafkaTemplate;

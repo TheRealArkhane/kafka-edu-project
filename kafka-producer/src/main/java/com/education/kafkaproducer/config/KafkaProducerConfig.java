@@ -1,6 +1,7 @@
 package com.education.kafkaproducer.config;
 
-import com.education.kafkaproducer.payload.Post;
+
+import com.education.kafkadto.dto.Post;
 import org.springframework.kafka.support.serializer.JsonSerializer;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;

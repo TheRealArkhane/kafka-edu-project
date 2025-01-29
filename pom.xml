@@ -16,6 +16,7 @@
     <modules>
         <module>kafka-producer</module>
         <module>kafka-consumer</module>
+        <module>kafka-dto</module>
     </modules>
     <packaging>pom</packaging>
     <url/>
