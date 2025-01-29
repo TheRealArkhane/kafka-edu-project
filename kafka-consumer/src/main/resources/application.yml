@@ -1,8 +1,7 @@
 spring:
   kafka:
-    bootstrap-servers: localhost:9092
+    bootstrap-servers: host.docker.internal:9092
     consumer:
-      group-id: "order-1"
       auto-offset-reset: earliest
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
@@ -15,5 +14,7 @@ spring:
           json:
             trusted:
               packages: "*"
+  profiles:
+    active: united
 server:
   port: 8081
